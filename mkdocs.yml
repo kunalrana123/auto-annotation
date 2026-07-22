@@ -1,0 +1,67 @@
+site_name: Neuraa
+site_description: >-
+  An AI-powered computer vision annotation engine that auto-labels image
+  datasets — including classes off-the-shelf models have never seen.
+site_url: https://your-username.github.io/neuraa/
+repo_url: https://github.com/your-username/neuraa
+repo_name: your-username/neuraa
+edit_uri: edit/main/docs/
+
+theme:
+  name: material
+  icon:
+    repo: fontawesome/brands/github
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: teal
+      accent: teal
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: teal
+      accent: teal
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - navigation.tracking
+    - toc.follow
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+
+nav:
+  - Home: index.md
+  - Architecture: architecture.md
+  - Roadmap: roadmap.md
+  - Build guide: build-guide.md
+  - Contributing: contributing.md
+
+plugins:
+  - search
+  - mkdocs-jupyter:
+      include_source: true
+      execute: false
+
+markdown_extensions:
+  - admonition
+  - tables
+  - toc:
+      permalink: true
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.details
+  - pymdownx.snippets:
+      base_path: [.]
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format

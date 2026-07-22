@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# MkDocs build output
+site/
+
+# macOS
+.DS_Store
+
+# Environment variables / secrets
+.env
+
+# Model weights and datasets (large — keep out of git)
+*.pt
+*.pth
+*.onnx
+data/
+datasets/
+weights/
+checkpoints/
