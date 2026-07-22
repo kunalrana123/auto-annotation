@@ -2,9 +2,9 @@ site_name: Neuraa
 site_description: >-
   An AI-powered computer vision annotation engine that auto-labels image
   datasets — including classes off-the-shelf models have never seen.
-site_url: https://your-username.github.io/neuraa/
-repo_url: https://github.com/your-username/neuraa
-repo_name: your-username/neuraa
+site_url: https://kunalrana123.github.io/auto-annotation/
+repo_url: https://github.com/kunalrana123/auto-annotation
+repo_name: kunalrana123/auto-annotation
 edit_uri: edit/main/docs/
 
 theme:
